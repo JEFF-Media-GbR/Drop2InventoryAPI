@@ -8,7 +8,7 @@ import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-public class APIHandler extends APIWrapper {
+class APIHandler extends APIWrapper {
 
     private final Main plugin = (Main) Bukkit.getPluginManager().getPlugin("Drop2InventoryPlus");
 
@@ -38,7 +38,8 @@ public class APIHandler extends APIWrapper {
 
     @Override
     public boolean isDrop2InventoryEnabled() {
-        return plugin != null;
+        if(plugin == null) return false;
+        return plugin.isEnabled();
     }
 
     @Override

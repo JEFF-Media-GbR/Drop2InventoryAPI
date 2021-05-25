@@ -5,7 +5,7 @@ import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-public class APIWrapper {
+class APIWrapper {
 
     public void addOrDrop(Player player, ItemStack itemStack, Location dropLocation) {
         dropLocation.getWorld().dropItemNaturally(dropLocation, itemStack);
