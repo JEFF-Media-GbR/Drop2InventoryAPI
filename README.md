@@ -19,7 +19,9 @@ You can use maven to add the Drop2Inventory API as a dependency to your Spigot-P
 </dependencies>
 ```
 
-You must also add Drop2InventoryPlus as `depend` or `softdepend` to your plugin.yml. If you only softdepend on it, you should shade the API into your plugin, or check if it's installed before accessing or importing any API methods:
+You must also add Drop2InventoryPlus as `depend` or `softdepend`
+to your plugin.yml. If you only softdepend on it, you should shade the API
+into your plugin:
 
 ```xml
 <build>
