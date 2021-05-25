@@ -9,7 +9,7 @@
     <name>Drop2InventoryAPI</name>
     <url>https://www.mfnalex.de</url>
     <description>Drop2Inventory API for plugin developers</description>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <properties>
