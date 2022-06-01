@@ -4,18 +4,18 @@ You can use maven to add the Drop2Inventory API as a dependency to your Spigot-P
 
 ```xml
 <repositories>
-	<repository>
-		<id>jeff-media-repo</id>
-		<url>https://repo.jeff-media.de/maven2</url>
-	</repository>
+    <repository>
+        <id>jeff-media-public</id>
+        <url>https://hub.jeff-media.com/nexus/repositories/jeff-media-public</url>
+    </repository>
 </repositories>
 <dependencies>
-	<dependency>
-		<groupId>de.jeff_media</groupId>
-		<artifactId>Drop2InventoryAPI</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
-        	<scope>compile</scope>
-	</dependency>
+    <dependency>
+        <groupId>de.jeff_media</groupId>
+        <artifactId>Drop2InventoryAPI</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <scope>compile</scope>
+    </dependency>
 </dependencies>
 ```
 
@@ -47,4 +47,4 @@ into your plugin:
 You can access all API methods statically via the public class `de.jeff_media.drop2inventory.Drop2InventoryAPI`.
 
 ## Javadocs
-- [Drop2InventoryAPI Javadocs](https://repo.jeff-media.de/javadocs/Drop2InventoryAPI).
+- [Drop2InventoryAPI Javadocs](https://hub.jeff-media.com/javadocs/drop2inventoryapi).
