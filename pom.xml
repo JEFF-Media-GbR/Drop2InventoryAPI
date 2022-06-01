@@ -48,14 +48,6 @@
             </plugin>
         </plugins>
 
-        <extensions>
-            <extension>
-                <groupId>org.apache.maven.wagon</groupId>
-                <artifactId>wagon-ftp</artifactId>
-                <version>3.4.1</version>
-            </extension>
-        </extensions>
-
     </build>
 
     <repositories>
@@ -93,7 +85,7 @@
     <distributionManagement>
         <repository>
             <id>jeff-media-public</id>
-            <url>https://hub.jeff-media.com/nexus/repositories/jeff-media-public</url>
+            <url>https://hub.jeff-media.com/nexus/repository/jeff-media-public/</url>
         </repository>
     </distributionManagement>
 
