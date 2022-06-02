@@ -6,7 +6,7 @@ You can use maven to add the Drop2Inventory API as a dependency to your Spigot-P
 <repositories>
     <repository>
         <id>jeff-media-public</id>
-        <url>https://hub.jeff-media.com/nexus/repository/jeff-media-public</url>
+        <url>https://hub.jeff-media.com/nexus/repository/jeff-media-public/</url>
     </repository>
 </repositories>
 <dependencies>
